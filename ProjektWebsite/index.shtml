@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unvollstaendiger Pfad</title>
+</head>
+
+<body style="background-color:lightgrey">
+
+<h1> Bitte Dateipfad ergaenzen !</h1>
+<p>
+<i>Die Homepage erreichen Sie mit:</i>
+<p>
+ 
+<b style="color:blue">/homepage.html </b>
+
+<footer>
+<p> © Ronja Burgd&ouml;rfer & Felix Schneider</p>
+</footer>
+
+</body>    
+</html>

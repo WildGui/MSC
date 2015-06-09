@@ -1,0 +1,55 @@
+h1
+{ 
+	color: red;
+	text-align: center;
+	font-family: Arial;
+	text-shadow: 5px 5px 5px green;
+	}
+ul
+{   text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 50; /*Kastenbreite um die gesamten Menüpunkte*/
+	overflow: hidden; /*Verhindert das Listitems aus der Liste tanzen*/
+}
+
+li
+{
+	float: left;
+	
+}
+a:link
+{
+
+display: block;
+width: 130px;
+color: black;
+font-size: 20px;
+background-color: #A6EDA6;
+text-decoration:  none;				/*+ text-transform: uppercase;  alles groß geschrieben*/
+text-align: center;
+padding: 40px;
+font-style: italic;
+ /*Kastenbreite um die Menüpunkte*/
+
+
+}
+a:hover
+{
+opacity:1; /*Deckkraft wenn Über den Link gefahren wird*/
+background:#33CC33;
+}
+IMG.displayed      /*Behandelt Bild wie block um es zu zentrieren*/
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+div /* UHR*/
+{
+color:darkblue;
+font-size: 20px;
+font-style:bold;
+text-align: center;
+}
