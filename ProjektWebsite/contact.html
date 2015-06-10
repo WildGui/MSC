@@ -1,7 +1,3 @@
-<?
-session_start();
-$_SESSION["erstertest"] = "deinemutter";
-?>
 <!DOCTYPE html>
 
 
@@ -15,7 +11,7 @@ $_SESSION["erstertest"] = "deinemutter";
 <link href="designhome.css" type="text/css" rel="stylesheet">
 
 <script src="aktuelleuhrzeit.js"></script>
-<script src="javatest.js"></script>
+
 </head>
 
 
@@ -44,16 +40,16 @@ $_SESSION["erstertest"] = "deinemutter";
 
 <!--_blank in neuem fenster öffnen-->
 
-<img src="Motorrad.jpg" class="displayed"  width="1080" height="720" alt="Wrong Picture source!" title='BMW S1000 RR'>
+<img src="testbild.jpg" class="displayed"  width="1080" height="720" alt="Wrong Picture source!" title='BMW S1000 RR'>
 
-<form method="POST" action="session.php">
+<form method="POST" action="index.php">
 <b>Login</b>
 <br>
-Username: <input name="user">
+Username: <input name="loginname">
 <br>
-Passwort: <input name="password" type=password>
+Passwort: <input name="loginpasswort" type=password>
 <br>
-<input type=submit value="Login">
+<input type=submit name=submit value="Einloggen">
 </form>
 
 <footer>
