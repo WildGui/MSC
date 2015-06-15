@@ -1,3 +1,8 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
 h1
 { 
 	color: red;
@@ -9,6 +14,7 @@ ul
 {   text-align: center;
 	list-style-type: none;
     margin: 0;
+    width: 100%;
     padding: 50; /*Kastenbreite um die gesamten Men√ºpunkte*/
 	overflow: hidden; /*Verhindert das Listitems aus der Liste tanzen*/
 }
@@ -26,17 +32,17 @@ width: 130px;
 color: black;
 font-size: 20px;
 background-color: #A6EDA6;
-text-decoration:  none;				/*+ text-transform: uppercase;  alles gro√ü geschrieben*/
+text-decoration:  none;				/*+ text-transform: uppercase;  alles groﬂ geschrieben*/
 text-align: center;
 padding: 40px;
 font-style: italic;
- /*Kastenbreite um die Men√ºpunkte*/
+ /*Kastenbreite um die Men¸punkte*/
 
 
 }
 a:hover
 {
-opacity:1; /*Deckkraft wenn √úber den Link gefahren wird*/
+opacity:1; /*Deckkraft wenn ‹ber den Link gefahren wird*/
 background:#33CC33;
 }
 IMG.displayed      /*Behandelt Bild wie block um es zu zentrieren*/
@@ -52,4 +58,11 @@ color:darkblue;
 font-size: 20px;
 font-style:bold;
 text-align: center;
+}
+
+.navi    /*Navigationsleiste um die Buttons*/
+{	
+	background-color: #A6EDA6;
+	width:100%;
+
 }
