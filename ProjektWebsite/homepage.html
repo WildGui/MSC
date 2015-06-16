@@ -1,13 +1,13 @@
 <?
 session_start();
-$_SESSION["erstertest"] = "deinemutter";
 ?>
 <!DOCTYPE html>
 
 
 <html lang="de-DE">
 <head>
-<title>Motor Sport Club Pfalz</title>
+
+<title>Motor Sport Club Pfalz</title>    <!-- Titel der Homepage-->
 
 <!--Current TIME ______W3SCHOOLS-->
 
@@ -19,13 +19,13 @@ $_SESSION["erstertest"] = "deinemutter";
 </head>
 
 
-<body style="background-color: #19A3FF" onload="startTime()">
+<body style="background-color: #AD855C" onload="startTime()">
 
 
 
-<h1>Motor Sport Club Pfalz </h1>
+<h1>Motor Sport Club Pfalz </h1>    <!--Überschrift-->
 
-<div class ="navi">
+<div class ="navi">    <!-- Navigationsleiste-->
 
 <ul class="navlist">
 <li><a href="homepage.html">Home</a></li>
@@ -38,7 +38,7 @@ $_SESSION["erstertest"] = "deinemutter";
 <p>
 
 
-<div id="txt"></div> <!--TIME ELEMENT, später auslagern um auf jeder seite an zuzeigen +++ Kalender auf die Website!!-->
+<div id="uhr"></div> <!--TIME ELEMENT, später auslagern um auf jeder seite an zuzeigen +++ Kalender auf die Website!!-->
 <br>
 <br>
 <br>
@@ -48,7 +48,11 @@ $_SESSION["erstertest"] = "deinemutter";
 
 <img src="Motorrad.jpg" class="displayed"  width="1080" height="720" alt="Wrong Picture source!" title='BMW S1000 RR'>
 
-
+<form method="POST" action="logindbconnect.php">
+Ihr Username: <input name="username"> <br>
+Ihr Passwört: <input name="passwort" type=password><br>
+<input type=submit name=submit value="Einloggen">
+</form>
 
 <footer>
 <p> © Ronja Burgdörfer & Felix Schneider</p>

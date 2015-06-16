@@ -1,37 +1,38 @@
 *
-{
-	margin: 0;
+{    /* Kein Rand im Internet Browser um die Seite*/
+	margin: 0; 
 	padding: 0;
 }
-h1
+h1   /*Überschriftsformatierung
+		Farbe Rot, mittige Position, Schriftart, Textschatten*/
 { 
-	color: red;
+	color: #522900;     
 	text-align: center;
 	font-family: Arial;
-	text-shadow: 5px 5px 5px green;
+	text-shadow: 5px 5px 5px #996600;
 	}
-ul
+ul    /* Navigationsleisten Items	*/
 {   text-align: center;
 	list-style-type: none;
     margin: 0;
-    width: 100%;
-    padding: 50; /*Kastenbreite um die gesamten MenÃ¼punkte*/
+    width: 100%; /*Breite*/
+    padding: 50; /*Kastenbreite um die gesamten Menüpunkte*/
 	overflow: hidden; /*Verhindert das Listitems aus der Liste tanzen*/
 }
 
-li
+li   /*Die Menüpunkte reihen sich hintereinander auf, verkleinert man die Seite springen sie in die nächste Zeile*/
 {
 	float: left;
 	
 }
-a:link
+a:link  /*Formatierung der einzelnen Menüpunkte*/
 {
 
 display: block;
 width: 130px;
 color: black;
 font-size: 20px;
-background-color: #A6EDA6;
+background-color: #D4C28C;
 text-decoration:  none;				/*+ text-transform: uppercase;  alles groß geschrieben*/
 text-align: center;
 padding: 40px;
@@ -40,10 +41,10 @@ font-style: italic;
 
 
 }
-a:hover
+a:hover  /*Farbänderung bei Überfahren der Menüpunkte*/
 {
 opacity:1; /*Deckkraft wenn Über den Link gefahren wird*/
-background:#33CC33;
+background:#A59587;
 }
 IMG.displayed      /*Behandelt Bild wie block um es zu zentrieren*/
 {
@@ -62,7 +63,7 @@ text-align: center;
 
 .navi    /*Navigationsleiste um die Buttons*/
 {	
-	background-color: #A6EDA6;
+	background-color: #D4C28C;
 	width:100%;
 
 }
